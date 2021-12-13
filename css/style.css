@@ -12,7 +12,7 @@
         url('/fonts/Roboto-Regular.ttf') format('truetype'),
         url('/fonts/Roboto-Regular.svg') format('svg');
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-display: swap;
 }
 
@@ -23,7 +23,6 @@
         url('/fonts/Roboto-Bold.woff') format('woff'),
         url('/fonts/Roboto-Bold.ttf') format('truetype'),
         url('/fonts/Roboto-Bold.svg') format('svg');
-    font-style: normal;
     font-weight: bold;
     font-display: swap;
 }
@@ -35,8 +34,7 @@
         url('/fonts/Roboto-Medium.woff') format('woff'),
         url('/fonts/Roboto-Medium.ttf') format('truetype'),
         url('/fonts/Roboto-Medium.svg') format('svg');
-    font-style: normal;
-    font-weight: medium;
+    font-weight: 500;
     font-display: swap;
 }
 
@@ -51,10 +49,17 @@ button {
     color: inherit;
 }
 
+li {
+    list-style-type: none;
+}
+ul {
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
 }
@@ -69,7 +74,7 @@ body {
     background: linear-gradient(180deg, rgba(0, 2, 32, 0) 0%, #000220 100%),
         #000220;
     color: #fff;
-
+    margin-bottom: 30px;
 }
 
 .header__inner {
@@ -243,4 +248,83 @@ body {
     cursor: pointer;
 }
 
-.profile__user-class {}
+.main{
+
+}
+.main__inner{
+    display: flex;
+}
+.sidebar {
+    width: 386px;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    margin-right: 50px;
+}
+.sidebar-header {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #010220;
+    border-radius: 5px 5px 0px 0px;
+}
+.sidebar-list {
+}
+.sidebar__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+.sidebar__item-score{
+    color: #D9D9D9;
+}
+.sidebar__item-score span{
+        color: #29B2E6;
+    }
+
+.sidebar__link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+}
+.sidebar__active{
+    color: #29B2E6;
+}
+.item__parent {
+}
+.item__parent-list{
+    width: 100%;
+}
+.item__child {
+}
+
+.content{
+    width: calc(100% - 386px);
+}
+.content__banner{
+    filter: drop-shadow(0px 6px 20px rgba(0, 0, 0, 0.12));
+    border-radius: 10px;
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.07);
+box-sizing: border-box;
+border-radius: 10px;
+border-left: 8px solid #29B2E6;
+display: flex;
+}
+.content__banner-text{
+font-size: 15px;
+line-height: 22px;
+color: #666666;
+}
+
+.content__banner-photoBlock{
+   width: 349px;
+   height: 405px; 
+}
+
+.teacherIcons{
+    width: 42px;
+    height: 42px;
+    background-color: #000220;
+}
