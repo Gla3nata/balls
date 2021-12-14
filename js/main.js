@@ -1,5 +1,5 @@
-$(function(){
-    $('.video__link').magnificPopup({
+$(function () {
+	$('.video__link').magnificPopup({
 		disableOn: 700,
 		type: 'iframe',
 		mainClass: 'mfp-fade',
@@ -7,5 +7,10 @@ $(function(){
 		preloader: false,
 
 		fixedContentPos: false
-	}); 
+	});
+
+	$('.dropdown__title').click(function (event) {
+		$(this).toggleClass('active').next().slideToggle(300);
+	});
+
 })

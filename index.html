@@ -15,12 +15,12 @@
         <div class="container">
             <div class="header__inner">
                 <div class="header__inner-left">
-            <nav class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
-                <!-- <ul class="menu__box">
+                    <nav class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+                        <ul class="menu__box">
                             <li class="menu__item">
                                 <a class="menu__link" href="">Курсы ЕГЭ</a>
                             </li>
@@ -36,293 +36,376 @@
                             <li class="menu__item">
                                 <a class="menu__link" href="">Годограф</a>
                             </li>
-                        </ul> -->
-            </nav>
+                        </ul>
+                    </nav>
 
-            <div class="logo">
-                <a href="#">
-                    <img src="images/logo.svg" alt="logo">
-                </a>
-            </div>
-            </div>
-            <div class="header__inner-profile">
-                <div class="profile">
-                 <div class="profile__info">
-                    <div class="profile__info--subject">Русский язык ЕГЭ</div>
-                    <div class="profile__info--progress">
-                        <div class="progress-box">
-                            <span>0</span>
-                            <span>47</span>
-                            <span>100</span>
-                        </div>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/logo.svg" alt="logo">
+                        </a>
                     </div>
                 </div>
-                <div class="profile__user">
-                     <img src="images/user-ava.png" alt="user-ava">
-                     <div class="profile__user-class">К</div>
-                     <div class="profile__user-score">1</div>
+                <div class="dropdown">
+                <div class="dropdown__title">new Приветствие</div>
+                    <div class="dropdown__list">
+                        <ul class="sidebar-list">
+                            <li class="sidebar__item">
+                                <a class="sidebar__link sidebar__active" href="">Приветствие</a>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="">Задание 1-3</a>
+                                <div class="sidebar__item-score">
+                                    <span>0</span>
+                                    /20
+                                </div>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="">Задание 4</a>
+                                <div class="sidebar__item-score"><span>0</span>/14</div>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="">Задание 5</a>
+                                <div class="sidebar__item-score"><span>0</span>/5</div>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="">Задание 6</a>
+                                <div class="sidebar__item-score"><span>0</span>/5</div>
+                            </li>
+                            <li class="sidebar__item item__parent">
+                                <a class="sidebar__link" href="">Задание 7</a>
+                                <div class="sidebar__item-score"><span>0</span>/3</div>
+                                <ul class="item__parent-list">
+                                    <li class="sidebar__item item__child">
+                                        <a class="sidebar__link" href="">Трудные случаи
+                                            <div class="icon">
+                                                <img src="images/aside-lock.svg" alt="lock">
+                                                <img src="images/aside-check.svg" alt="check">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar__item item__child">
+                                        <a class="sidebar__link" href="">Тестовые задания (часть 1)
+                                            <div class="icon">
+                                                <img src="images/aside-lock.svg" alt="lock">
+                                                <img src="images/aside-check.svg" alt="check">
+                                            </div>
+                                        </a>
+                                    <li class="sidebar__item item__child">
+                                        <a class="sidebar__link" href="">Тестовые задания (часть 2)
+                                            <div class="icon">
+                                                <img src="images/aside-lock.svg" alt="lock">
+                                                <img src="images/aside-check.svg" alt="check">
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="">Задание 11</a>
+                                <div class="sidebar__item-score"><span>0</span>/5</span>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="">Задание 12</a>
+                                <div class="sidebar__item-score"><span>0</span>/12</span>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="">Задание 13</a>
+                                <div class="sidebar__item-score"><span>0</span>/9</div>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="">Задание 14</a>
+                                <div class="sidebar__item-score"><span>0</span>/8</div>
+                            </li>
+                            <li class="sidebar__item">
+                                <a class="sidebar__link" href="">Задание 15</a>
+                                <div class="sidebar__item-score"><span>0</span>/2</div>
+                            </li>
+                        </ul>
+
+                    </div>
+                    </div>
+                <div class="header__inner-profile">
+                    <div class="profile">
+                        <div class="profile__info">
+                            <div class="profile__info--subject">Русский язык ЕГЭ</div>
+                            <div class="profile__info--progress">
+                                <div class="progress-box">
+                                    <div class="progress-box__current">
+                                    </div>
+                                </div>
+                                <span class="progress-box__start">0</span>
+                                <span class="progress-box__value">47</span>
+                                <span class="progress-box__end">100</span>
+                            </div>
+                        </div>
+                        <div class="profile__user">
+                            <img src="images/user-ava.png" alt="user-ava">
+                            <div class="profile__user-class">К</div>
+                            <div class="profile__user-score">1</div>
+                        </div>
+                    </div>
+                    <button class="header__btn">
+                        Рейтинг
+                    </button>
+                    <button class="header__btn">
+                        Оплатить
+                    </button>
                 </div>
-            </div>
-                <button class="header__btn">
-                    Рейтинг
-                </button>
-                <button class="header__btn">
-                    Оплатить
-                </button>
-            </div>
             </div>
         </div>
     </header>
     <main class="main">
         <div class="container">
             <div class="main__inner">
-        <aside class="sidebar">
-            <div class="sidebar-header">Математическая вертикаль 2022</div>
-            <ul class="sidebar-list">
-                <li class="sidebar__item">
-                    <a class="sidebar__link sidebar__active" href="">Приветствие</a>
-                </li>
-                <li class="sidebar__item">
-                    <a class="sidebar__link" href="">Задание 1-3</a>
-                    <div class="sidebar__item-score">
-                        <span >0</span>
-                        /20</div>
-                </li>
-                <li class="sidebar__item">
-                     <a class="sidebar__link" href="">Задание 4</a>
-                    <div class="sidebar__item-score"><span>0</span>/14</div>
-                </li>
-                <li class="sidebar__item">
-                   <a class="sidebar__link" href="">Задание 5</a>
-                    <div class="sidebar__item-score"><span>0</span>/5</div>
-                </li>
-            <li class="sidebar__item">
-                    <a class="sidebar__link" href="">Задание 6</a>
-                    <div class="sidebar__item-score"><span>0</span>/5</div>
-            </li>
-            <li class="sidebar__item item__parent">
-                    <a class="sidebar__link" href="">Задание 7</a>
-                    <div class="sidebar__item-score"><span>0</span>/3</div>
-                <ul class="item__parent-list">
-                <li class="sidebar__item item__child">
-                    <a class="sidebar__link" href="">Трудные случаи
-                    <div class="icon">
-                        <img src="images/aside-lock.svg" alt="lock">
-                        <img src="images/aside-check.svg" alt="check">
+                <aside class="sidebar">
+                    <div class="sidebar-header">Математическая вертикаль 2022</div>
+                    <ul class="sidebar-list">
+                        <li class="sidebar__item">
+                            <a class="sidebar__link sidebar__active" href="">Приветствие</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a class="sidebar__link" href="">Задание 1-3</a>
+                            <div class="sidebar__item-score">
+                                <span>0</span>
+                                /20
+                            </div>
+                        </li>
+                        <li class="sidebar__item">
+                            <a class="sidebar__link" href="">Задание 4</a>
+                            <div class="sidebar__item-score"><span>0</span>/14</div>
+                        </li>
+                        <li class="sidebar__item">
+                            <a class="sidebar__link" href="">Задание 5</a>
+                            <div class="sidebar__item-score"><span>0</span>/5</div>
+                        </li>
+                        <li class="sidebar__item">
+                            <a class="sidebar__link" href="">Задание 6</a>
+                            <div class="sidebar__item-score"><span>0</span>/5</div>
+                        </li>
+                        <li class="sidebar__item item__parent">
+                            <a class="sidebar__link" href="">Задание 7</a>
+                            <div class="sidebar__item-score"><span>0</span>/3</div>
+                            <ul class="item__parent-list">
+                                <li class="sidebar__item item__child">
+                                    <a class="sidebar__link" href="">Трудные случаи
+                                        <div class="icon">
+                                            <img src="images/aside-lock.svg" alt="lock">
+                                            <img src="images/aside-check.svg" alt="check">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="sidebar__item item__child">
+                                    <a class="sidebar__link" href="">Тестовые задания (часть 1)
+                                        <div class="icon">
+                                            <img src="images/aside-lock.svg" alt="lock">
+                                            <img src="images/aside-check.svg" alt="check">
+                                        </div>
+                                    </a>
+                                <li class="sidebar__item item__child">
+                                    <a class="sidebar__link" href="">Тестовые задания (часть 2)
+                                        <div class="icon">
+                                            <img src="images/aside-lock.svg" alt="lock">
+                                            <img src="images/aside-check.svg" alt="check">
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar__item">
+                            <a class="sidebar__link" href="">Задание 11</a>
+                            <div class="sidebar__item-score"><span>0</span>/5</span>
+                        </li>
+                        <li class="sidebar__item">
+                            <a class="sidebar__link" href="">Задание 12</a>
+                            <div class="sidebar__item-score"><span>0</span>/12</span>
+                        </li>
+                        <li class="sidebar__item">
+                            <a class="sidebar__link" href="">Задание 13</a>
+                            <div class="sidebar__item-score"><span>0</span>/9</div>
+                        </li>
+                        <li class="sidebar__item">
+                            <a class="sidebar__link" href="">Задание 14</a>
+                            <div class="sidebar__item-score"><span>0</span>/8</div>
+                        </li>
+                        <li class="sidebar__item">
+                            <a class="sidebar__link" href="">Задание 15</a>
+                            <div class="sidebar__item-score"><span>0</span>/2</div>
+                        </li>
+                    </ul>
+                </aside>
+                <section class="content">
+                    <div class="breadcrumbs">
+                        <a class="breadcrumbs__link" href="#">Главная /</a>
+                        <a class="breadcrumbs__link" href="#">Математическая вертикаль /</a>
+                        <a class="breadcrumbs__link breadcrumbs__link-active" href="#">Легендарный старт</a>
                     </div>
-                </a>
-                </li>
-                <li class="sidebar__item item__child">
-                    <a class="sidebar__link" href="">Тестовые задания (часть 1)
-                        <div class="icon">
-                            <img src="images/aside-lock.svg" alt="lock">
-                            <img src="images/aside-check.svg" alt="check">
+                    <div class="content__banner">
+                        <div class="content__banner-box">
+                            <h1 class="content__banner-title">“МатВертикаль” <br> подготовка к экзамену</h1>
+                            <p class="content__banner-text">Курс поможет поступить в престижный класс и
+                                получать пятёрки по математике</p>
+                            <div class="content__banner-infoBlock infoBlock">
+                                <div class="infoBlock__top">
+                                    <p class="infoBlock__top-numbers coast">4990 ₽</p>
+                                    <span class="infoBlock__top-value"></span>
+                                    <p class="content__banner-text">стоимость <br> за весь курс</p>
+                                </div>
+                                <div class="infoBlock__bottom">
+                                    <p class="infoBlock__top-numbers play">90</p>
+                                    <p class="infoBlock__text">видео в курсе</p>
+                                    <p class="infoBlock__top-numbers approved">790</p>
+                                    <p class="infoBlock__text">проверочных тестов</p>
+                                </div>
+                                <div class="infoBlock__btn">
+                                    <a class="button btn-buy" href="">Купить</a>
+                                    <a class="button btn-try" href="">Попробовать бесплатно</a>
+                                </div>
+                            </div>
                         </div>
-                    </a>
-                <li class="sidebar__item item__child">
-                     <a class="sidebar__link" href="">Тестовые задания (часть 2)
-                        <div class="icon">
-                            <img src="images/aside-lock.svg" alt="lock">
-                            <img src="images/aside-check.svg" alt="check">
+                        <div class="content__banner-photoBlock">
+                            <img class="teacher" src="images/teacher.png" alt="teacher">
+                            <div class="teacher__icons">
+                                <div class="teacher__icons-item">
+                                    <img src="images/teacher-icon-men.svg" alt="teacher-icon">
+                                </div>
+                                <div class="teacher__icons-item">
+                                    <img src="images/teacher-icon.png" alt="teacher-icon">
+                                </div>
+                                <div class="teacher__icons-item">
+                                    <img src="images/300.svg" alt="teacher-icon">
+                                </div>
+                                <div class="teacher__icons-item">
+                                    <img src="images/teacher-icon-100.svg" alt="teacher-icon">
+                                </div>
+                                <div class="teacher__icons-item">
+                                    <img src="images/hat.svg" alt="teacher-icon">
+                                </div>
+                            </div>
                         </div>
-                </a>
-                </li>
-                 </ul>
-             </li>
-            <li class="sidebar__item">
-                <a class="sidebar__link" href="">Задание 11</a>
-                <div class="sidebar__item-score"><span>0</span>/5</span>
-            </li>
-            <li class="sidebar__item">
-                <a class="sidebar__link" href="">Задание 12</a>
-                <div class="sidebar__item-score"><span>0</span>/12</span>
-            </li>
-            <li class="sidebar__item">
-                <a class="sidebar__link" href="">Задание 13</a>
-                <div class="sidebar__item-score"><span>0</span>/9</div>
-            </li>
-                <li class="sidebar__item">
-                <a class="sidebar__link" href="">Задание 14</a>
-                <div class="sidebar__item-score"><span>0</span>/8</div>
-            </li>
-            <li class="sidebar__item">
-                <a class="sidebar__link" href="">Задание 15</a>
-                <div class="sidebar__item-score"><span>0</span>/2</div>
-            </li>
-             </ul>
-        </aside>
-        <section class="content">
-            <div class="breadcrumbs">
-               <a class="breadcrumbs__link" href="#">Главная /</a>
-               <a class="breadcrumbs__link" href="#">Математическая вертикаль /</a>
-            <a class="breadcrumbs__link breadcrumbs__link-active" href="#">Легендарный старт</a>
-            </div>
-            <div class="content__banner">
-                <div class="content__banner-box">
-                    <h1 class="content__banner-title">“МатВертикаль” <br> подготовка к экзамену</h1>
-                    <p class="content__banner-text">Курс поможет поступить в престижный класс и
-                        получать пятёрки по математике</p>
-                    <div class="content__banner-infoBlock infoBlock">
-                        <div class="infoBlock__top">
-                        <p class="infoBlock__top-numbers coast">4990 ₽</p>
-                        <span class="infoBlock__top-value"></span>
-                        <p class="content__banner-text">стоимость <br> за весь курс</p>
-                        </div>
-                       <div class="infoBlock__bottom">
-                        <p class="infoBlock__top-numbers play">90</p>
-                        <p class="infoBlock__text">видео в курсе</p>
-                        <p class="infoBlock__top-numbers approved">790</p>
-                        <p class="infoBlock__text">проверочных тестов</p>
-                       </div> 
-                       <div class="infoBlock__btn">
-                           <a class="button btn-buy" href="">Купить</a>
-                           <a class="button btn-try" href="">Попробовать бесплатно</a>
-                       </div>
                     </div>
-                </div>
-                <div class="content__banner-photoBlock">
-                    <img class="teacher" src="images/teacher.png" alt="teacher">
-                    <div class="teacher__icons">
-                         <div class="teacher__icons-item">
-                      <img src="images/teacher-icon-men.svg" alt="teacher-icon">
-                        </div>
-                             <div class="teacher__icons-item">
-                        <img src="images/teacher-icon.png" alt="teacher-icon">
-                            </div>
-                             <div class="teacher__icons-item">
-                        <img src="images/300.svg" alt="teacher-icon">
-                            </div>
-                             <div class="teacher__icons-item">
-                         <img src="images/teacher-icon-100.svg" alt="teacher-icon">
-                            </div>
-                              <div class="teacher__icons-item">
-                         <img src="images/hat.svg" alt="teacher-icon">
-                            </div>
+                    <div class="video-popup">
+                        <a class="video__link" href=https://youtu.be/KCbqj3mL7yE">
+                            <img src="images/popup.svg" alt="video-img">
+                        </a>
                     </div>
-                </div>
+                    <div class="content__info">
+                        <h2 class="content__info-title">Кому будет полезен курс:</h2>
+                        <p class="content__info-text">Если Вы хотите, чтобы Ваш ребенок обучался с лучшими преподавателями в школе, был окружен учениками, которые пришли в школу учиться, а также подготовить почву для блестящего будущего Вашего ребенка, то добро пожаловать на курс “МатВертикаль” от Михаила Попова и проекта “80 Баллов”.
+                        </p>
+                        <p class="content__info-slogan">Качественное математическое образование - это залог успеха на рынке труда!</p>
+                        <h2 class="content__info-title">О курсе:</h2>
+                        <ul class="content__info-list">
+                            <li>59 видео ЕГЭ 2022 от старшего эксперта ЕГЭ и учителя высшей категории</li>
+                            <li>Мы разберем абсолютно все нюансы экзамена</li>
+                            <li>Каждый ученик научится решать задачи, которые 100% встретяться на экзамене</li>
+                            <li>Разберем, как решать задания повышенной сложности</li>
+                            <li>Все обучение посроено без использования сложных непонятных терминов и громоздких уравнений</li>
+                        </ul>
+                        <h2 class="content__info-title">Об авторе курса:</h2>
+                        <ul class="content__info-list">
+                            <li>Михаил Попов - старший эксперт ЕГЭ и учитель высшей категории</li>
+                            <li>Участник проекта с самого его основания</li>
+                            <li>Практикующий учитель в московской школе №597</li>
+                            <li>Методист в МГУ им. Ломоносова</li>
+                        </ul>
+                        <div class="infoBlock__btn">
+                            <a class="button btn-buy" href="">Купить</a>
+                            <a class="button btn-try" href="">Купить в рассрочку от 833 ₽/мес</a>
+                        </div>
+
+                    </div>
             </div>
-            <div class="video-popup">
-               <a class="video__link" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
-               <img src="images/popup.svg" alt="video-img">
-            </a>
-            </div>
-            <div class="content__info">
-                <h2 class="content__info-title">Кому будет полезен курс:</h2>
-                <p class="content__info-text">Если Вы хотите, чтобы Ваш ребенок обучался с лучшими преподавателями в школе, был окружен учениками, которые пришли в школу учиться, а также подготовить почву для блестящего будущего Вашего ребенка, то добро пожаловать на курс “МатВертикаль” от Михаила Попова и проекта “80 Баллов”.
-                </p>
-                <p class="content__info-slogan">Качественное математическое образование - это залог успеха на рынке труда!</p>
-                <h2 class="content__info-title">О курсе:</h2>
-                <ul class="content__info-list">
-                    <li>59 видео ЕГЭ 2022 от старшего эксперта ЕГЭ и учителя высшей категории</li>
-                    <li>Мы разберем абсолютно все нюансы экзамена</li>
-                    <li>Каждый ученик научится решать задачи, которые 100% встретяться на экзамене</li>
-                    <li>Разберем, как решать задания повышенной сложности</li>
-                    <li>Все обучение посроено без использования сложных непонятных терминов и громоздких уравнений</li>
-                </ul>
-                <h2 class="content__info-title">Об авторе курса:</h2>
-                <ul class="content__info-list">
-                    <li>Михаил Попов - старший эксперт ЕГЭ и учитель высшей категории</li>
-                    <li>Участник проекта с самого его основания</li>
-                    <li>Практикующий учитель в московской школе №597</li>
-                    <li>Методист в МГУ им. Ломоносова</li>
-                </ul>
-                <div class="infoBlock__btn">
-                    <a class="button btn-buy" href="">Купить</a>
-                    <a class="button btn-try" href="">Купить в рассрочку от 833 ₽/мес</a>
-                 </div>
-                   
-                </div>
-            </div>
-        </section>
+            </section>
         </div>
     </main>
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
-        <div class="logo">
-            <a href="#">
-                <img src="images/logo.svg" alt="logo">
-            </a>
-        </div>
-        <div class="footer__log">
-            <a class="footer__log-link" href="">Войти</a>
-            <a class="footer__log-link" href="">Оплатить</a>
-        </div>
-        
-            <ul class="footer__social">
-                <li class="footer__social-item">
-                    <a class="footer__social-link" target="_blank" rel="nofollow" href="https://vk.com/80ballov">
-                    <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M18.2561 7.359C17.9004 6.90983 18.0021 6.71 18.2561 6.3085C18.2606 6.30392 21.1968 2.24675 21.4993 0.870833L21.5012 0.869916C21.6515 0.3685 21.5012 0 20.7742 0H18.3688C17.7564 0 17.4741 0.31625 17.3228 0.670083C17.3228 0.670083 16.0981 3.60158 14.3656 5.50183C13.8064 6.05092 13.5479 6.22692 13.2426 6.22692C13.0923 6.22692 12.8585 6.05092 12.8585 5.5495V0.869916C12.8585 0.268583 12.6871 0 12.1802 0H8.39787C8.01378 0 7.78552 0.2805 7.78552 0.54175C7.78552 1.11192 8.6518 1.243 8.74164 2.84717V6.32775C8.74164 7.09042 8.60322 7.23067 8.29612 7.23067C7.47843 7.23067 5.49377 4.28725 4.31765 0.9185C4.08022 0.264917 3.8483 0.0009166 3.23136 0.0009166H0.825029C0.138421 0.0009166 0 0.317167 0 0.671C0 1.29617 0.817695 4.40458 3.80246 8.51125C5.7917 11.3144 8.59313 12.8333 11.1416 12.8333C12.6734 12.8333 12.8604 12.496 12.8604 11.9157C12.8604 9.23725 12.7219 8.98425 13.4892 8.98425C13.8449 8.98425 14.4573 9.16025 15.8873 10.5123C17.5218 12.1156 17.7904 12.8333 18.7052 12.8333H21.1106C21.7963 12.8333 22.1438 12.496 21.9439 11.8305C21.4865 10.4307 18.3954 7.5515 18.2561 7.359Z" fill="white"/>
-                        </svg>
-                </a>
-                </li>
-                <li class="footer__social-item">
-                    <a class="footer__social-link" target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UCNBpaUKdQq2O-s5q40tCpNA">
-                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M20.8768 5.84509C20.6391 4.9615 19.9424 4.26498 19.059 4.02705C17.445 3.58545 10.989 3.58545 10.989 3.58545C10.989 3.58545 4.53324 3.58545 2.91927 4.01031C2.05281 4.24798 1.33916 4.96162 1.10149 5.84509C0.676758 7.45893 0.676758 10.8058 0.676758 10.8058C0.676758 10.8058 0.676758 14.1696 1.10149 15.7666C1.33942 16.65 2.03581 17.3466 2.9194 17.5845C4.55024 18.0262 10.9893 18.0262 10.9893 18.0262C10.9893 18.0262 17.445 18.0262 19.059 17.6014C19.9426 17.3636 20.6391 16.667 20.877 15.7836C21.3016 14.1696 21.3016 10.8228 21.3016 10.8228C21.3016 10.8228 21.3186 7.45893 20.8768 5.84509ZM8.93355 13.8978V7.71385L14.302 10.8058L8.93355 13.8978Z" fill="white"/>
-                            </svg>
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.svg" alt="logo">
                     </a>
-                </li>
-                <li class="footer__social-item">
-                    <a class="footer__social-link" target="_blank" rel="nofollow" href="https://www.instagram.com/eve.riyanova/?hl=ru">
-                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_205_169)">
-                            <path d="M21.9789 6.46806C21.9274 5.29912 21.7383 4.49548 21.4676 3.79911C21.1882 3.05994 20.7584 2.39816 20.1954 1.84802C19.6452 1.28931 18.9791 0.855178 18.2485 0.580191C17.5481 0.309402 16.7486 0.12037 15.5797 0.0688306C14.402 0.0129267 14.0281 0 11.0412 0C8.05431 0 7.68044 0.0129267 6.50713 0.0644657C5.33818 0.116005 4.53454 0.305205 3.83835 0.575827C3.099 0.855178 2.43722 1.28495 1.88708 1.84802C1.32838 2.39816 0.894409 3.0643 0.619254 3.79492C0.348465 4.49548 0.159432 5.29475 0.107893 6.4637C0.0519892 7.64137 0.0390625 8.01524 0.0390625 11.0021C0.0390625 13.9891 0.0519892 14.3629 0.103528 15.5362C0.155067 16.7052 0.344268 17.5088 0.615057 18.2052C0.894409 18.9444 1.32838 19.6061 1.88708 20.1563C2.43722 20.715 3.10337 21.1491 3.83398 21.4241C4.53454 21.6949 5.33382 21.8839 6.50293 21.9355C7.67607 21.9872 8.05011 21.9999 11.037 21.9999C14.0239 21.9999 14.3978 21.9872 15.5711 21.9355C16.7401 21.8839 17.5437 21.6949 18.2399 21.4241C19.7184 20.8525 20.8874 19.6835 21.459 18.2052C21.7296 17.5046 21.9188 16.7052 21.9704 15.5362C22.0219 14.3629 22.0348 13.9891 22.0348 11.0021C22.0348 8.01524 22.0305 7.64137 21.9789 6.46806ZM19.9978 15.4503C19.9504 16.5247 19.77 17.1049 19.6195 17.4917C19.2499 18.4501 18.4892 19.2108 17.5308 19.5805C17.144 19.7309 16.5596 19.9113 15.4894 19.9585C14.329 20.0102 13.981 20.023 11.0456 20.023C8.11021 20.023 7.75783 20.0102 6.60164 19.9585C5.52722 19.9113 4.94702 19.7309 4.56023 19.5805C4.08328 19.4042 3.64915 19.1248 3.29677 18.7595C2.93146 18.4028 2.65211 17.973 2.47584 17.4961C2.32542 17.1093 2.14494 16.5247 2.09777 15.4546C2.04606 14.2943 2.0333 13.9461 2.0333 11.0107C2.0333 8.07534 2.04606 7.72296 2.09777 6.56694C2.14494 5.49251 2.32542 4.91232 2.47584 4.52553C2.65211 4.04841 2.93146 3.61445 3.30113 3.2619C3.65771 2.89659 4.08748 2.61724 4.56459 2.44114C4.95139 2.29072 5.53595 2.11025 6.60601 2.0629C7.76639 2.01136 8.11458 1.99844 11.0498 1.99844C13.9895 1.99844 14.3375 2.01136 15.4937 2.0629C16.5682 2.11025 17.1483 2.29072 17.5351 2.44114C18.0121 2.61724 18.4462 2.89659 18.7986 3.2619C19.1639 3.61864 19.4433 4.04841 19.6195 4.52553C19.77 4.91232 19.9504 5.49671 19.9978 6.56694C20.0493 7.72732 20.0622 8.07534 20.0622 11.0107C20.0622 13.9461 20.0493 14.2899 19.9978 15.4503Z" fill="white"/>
-                            <path d="M11.1515 5.5C8.03145 5.5 5.5 8.03129 5.5 11.1515C5.5 14.2717 8.03145 16.803 11.1515 16.803C14.2717 16.803 16.803 14.2717 16.803 11.1515C16.803 8.03129 14.2717 5.5 11.1515 5.5ZM11.1515 14.8175C9.12737 14.8175 7.48551 13.1758 7.48551 11.1515C7.48551 9.1272 9.12737 7.48551 11.1515 7.48551C13.1758 7.48551 14.8175 9.1272 14.8175 11.1515C14.8175 13.1758 13.1758 14.8175 11.1515 14.8175V14.8175Z" fill="white"/>
-                            <path d="M18.2366 5.12747C18.2366 5.85607 17.6458 6.44683 16.917 6.44683C16.1884 6.44683 15.5977 5.85607 15.5977 5.12747C15.5977 4.39871 16.1884 3.80811 16.917 3.80811C17.6458 3.80811 18.2366 4.39871 18.2366 5.12747V5.12747Z" fill="white"/>
-                            </g>
-                            </svg>
-                </a>
-            </li>
-            </ul>
-        
-        <div class="footer__phone">
-        <a class="phone" href="tel:+74959709966">+7 (495) 970-99-66</a>
-     </div>
-        <div class="footer__mail">80ballov@godege.ru</div>
-        
-        <div class="footer__contacts">
-            <p>© 2020 УЦ «Годограф»</p>
-            <p>Проект 80 Баллов</p>
-            <p>ИП: Стерлядкин Андрей Викторович</p>
-            <p>ИНН: 773137757657</p>
-            <p>ОГРН: 317774600363751</p>
-        </div>
-        
-         <ul class="footer__links">
-            <li class="footer__links-item">Политика конфиденциальности</li>
-            <li class="footer__links-item">Договор оферты регулярных платежей</li>
-            <li class="footer__links-item">Договор оферты</li>
-        </ul>
-      
-        <ul class="footer__links">
-            <li class="footer__links-item">Очные занятия</li>
-            <li class="footer__links-item">Франшиза курсов ЕГЭ и ОГЭ</li>
-            <li class="footer__links-item">Вакансии центра</li>
-            <li class="footer__links-item">Контакты</li>
-            <li class="footer__links-item">Блог</li>
-        </ul>
+                </div>
+                <div class="footer__log">
+                    <a class="footer__log-link" href="">Войти</a>
+                    <a class="footer__log-link" href="">Оплатить</a>
+                </div>
 
-            <ul class="footer__links">
-                <li class="footer__links-item">Математика</li>
-                <li class="footer__links-item">Обществознание</li>
-                <li class="footer__links-item">Биология</li>
-                <li class="footer__links-item">Английский язык</li>
-                <li class="footer__links-item">Литература</li>
-                <li class="footer__links-item">Информатика</li>
-            </ul>
-       
-        <div class="footer__license">
-            <img class="footer__license-img" src="images/license.png" alt="license">
-            <p class="footer__license-descr">Государственная лицензия</p>
+                <ul class="footer__social">
+                    <li class="footer__social-item">
+                        <a class="footer__social-link" target="_blank" rel="nofollow" href="https://vk.com/80ballov">
+                            <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.2561 7.359C17.9004 6.90983 18.0021 6.71 18.2561 6.3085C18.2606 6.30392 21.1968 2.24675 21.4993 0.870833L21.5012 0.869916C21.6515 0.3685 21.5012 0 20.7742 0H18.3688C17.7564 0 17.4741 0.31625 17.3228 0.670083C17.3228 0.670083 16.0981 3.60158 14.3656 5.50183C13.8064 6.05092 13.5479 6.22692 13.2426 6.22692C13.0923 6.22692 12.8585 6.05092 12.8585 5.5495V0.869916C12.8585 0.268583 12.6871 0 12.1802 0H8.39787C8.01378 0 7.78552 0.2805 7.78552 0.54175C7.78552 1.11192 8.6518 1.243 8.74164 2.84717V6.32775C8.74164 7.09042 8.60322 7.23067 8.29612 7.23067C7.47843 7.23067 5.49377 4.28725 4.31765 0.9185C4.08022 0.264917 3.8483 0.0009166 3.23136 0.0009166H0.825029C0.138421 0.0009166 0 0.317167 0 0.671C0 1.29617 0.817695 4.40458 3.80246 8.51125C5.7917 11.3144 8.59313 12.8333 11.1416 12.8333C12.6734 12.8333 12.8604 12.496 12.8604 11.9157C12.8604 9.23725 12.7219 8.98425 13.4892 8.98425C13.8449 8.98425 14.4573 9.16025 15.8873 10.5123C17.5218 12.1156 17.7904 12.8333 18.7052 12.8333H21.1106C21.7963 12.8333 22.1438 12.496 21.9439 11.8305C21.4865 10.4307 18.3954 7.5515 18.2561 7.359Z" fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link" target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UCNBpaUKdQq2O-s5q40tCpNA">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.8768 5.84509C20.6391 4.9615 19.9424 4.26498 19.059 4.02705C17.445 3.58545 10.989 3.58545 10.989 3.58545C10.989 3.58545 4.53324 3.58545 2.91927 4.01031C2.05281 4.24798 1.33916 4.96162 1.10149 5.84509C0.676758 7.45893 0.676758 10.8058 0.676758 10.8058C0.676758 10.8058 0.676758 14.1696 1.10149 15.7666C1.33942 16.65 2.03581 17.3466 2.9194 17.5845C4.55024 18.0262 10.9893 18.0262 10.9893 18.0262C10.9893 18.0262 17.445 18.0262 19.059 17.6014C19.9426 17.3636 20.6391 16.667 20.877 15.7836C21.3016 14.1696 21.3016 10.8228 21.3016 10.8228C21.3016 10.8228 21.3186 7.45893 20.8768 5.84509ZM8.93355 13.8978V7.71385L14.302 10.8058L8.93355 13.8978Z" fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link" target="_blank" rel="nofollow" href="https://www.instagram.com/eve.riyanova/?hl=ru">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_205_169)">
+                                    <path d="M21.9789 6.46806C21.9274 5.29912 21.7383 4.49548 21.4676 3.79911C21.1882 3.05994 20.7584 2.39816 20.1954 1.84802C19.6452 1.28931 18.9791 0.855178 18.2485 0.580191C17.5481 0.309402 16.7486 0.12037 15.5797 0.0688306C14.402 0.0129267 14.0281 0 11.0412 0C8.05431 0 7.68044 0.0129267 6.50713 0.0644657C5.33818 0.116005 4.53454 0.305205 3.83835 0.575827C3.099 0.855178 2.43722 1.28495 1.88708 1.84802C1.32838 2.39816 0.894409 3.0643 0.619254 3.79492C0.348465 4.49548 0.159432 5.29475 0.107893 6.4637C0.0519892 7.64137 0.0390625 8.01524 0.0390625 11.0021C0.0390625 13.9891 0.0519892 14.3629 0.103528 15.5362C0.155067 16.7052 0.344268 17.5088 0.615057 18.2052C0.894409 18.9444 1.32838 19.6061 1.88708 20.1563C2.43722 20.715 3.10337 21.1491 3.83398 21.4241C4.53454 21.6949 5.33382 21.8839 6.50293 21.9355C7.67607 21.9872 8.05011 21.9999 11.037 21.9999C14.0239 21.9999 14.3978 21.9872 15.5711 21.9355C16.7401 21.8839 17.5437 21.6949 18.2399 21.4241C19.7184 20.8525 20.8874 19.6835 21.459 18.2052C21.7296 17.5046 21.9188 16.7052 21.9704 15.5362C22.0219 14.3629 22.0348 13.9891 22.0348 11.0021C22.0348 8.01524 22.0305 7.64137 21.9789 6.46806ZM19.9978 15.4503C19.9504 16.5247 19.77 17.1049 19.6195 17.4917C19.2499 18.4501 18.4892 19.2108 17.5308 19.5805C17.144 19.7309 16.5596 19.9113 15.4894 19.9585C14.329 20.0102 13.981 20.023 11.0456 20.023C8.11021 20.023 7.75783 20.0102 6.60164 19.9585C5.52722 19.9113 4.94702 19.7309 4.56023 19.5805C4.08328 19.4042 3.64915 19.1248 3.29677 18.7595C2.93146 18.4028 2.65211 17.973 2.47584 17.4961C2.32542 17.1093 2.14494 16.5247 2.09777 15.4546C2.04606 14.2943 2.0333 13.9461 2.0333 11.0107C2.0333 8.07534 2.04606 7.72296 2.09777 6.56694C2.14494 5.49251 2.32542 4.91232 2.47584 4.52553C2.65211 4.04841 2.93146 3.61445 3.30113 3.2619C3.65771 2.89659 4.08748 2.61724 4.56459 2.44114C4.95139 2.29072 5.53595 2.11025 6.60601 2.0629C7.76639 2.01136 8.11458 1.99844 11.0498 1.99844C13.9895 1.99844 14.3375 2.01136 15.4937 2.0629C16.5682 2.11025 17.1483 2.29072 17.5351 2.44114C18.0121 2.61724 18.4462 2.89659 18.7986 3.2619C19.1639 3.61864 19.4433 4.04841 19.6195 4.52553C19.77 4.91232 19.9504 5.49671 19.9978 6.56694C20.0493 7.72732 20.0622 8.07534 20.0622 11.0107C20.0622 13.9461 20.0493 14.2899 19.9978 15.4503Z" fill="white" />
+                                    <path d="M11.1515 5.5C8.03145 5.5 5.5 8.03129 5.5 11.1515C5.5 14.2717 8.03145 16.803 11.1515 16.803C14.2717 16.803 16.803 14.2717 16.803 11.1515C16.803 8.03129 14.2717 5.5 11.1515 5.5ZM11.1515 14.8175C9.12737 14.8175 7.48551 13.1758 7.48551 11.1515C7.48551 9.1272 9.12737 7.48551 11.1515 7.48551C13.1758 7.48551 14.8175 9.1272 14.8175 11.1515C14.8175 13.1758 13.1758 14.8175 11.1515 14.8175V14.8175Z" fill="white" />
+                                    <path d="M18.2366 5.12747C18.2366 5.85607 17.6458 6.44683 16.917 6.44683C16.1884 6.44683 15.5977 5.85607 15.5977 5.12747C15.5977 4.39871 16.1884 3.80811 16.917 3.80811C17.6458 3.80811 18.2366 4.39871 18.2366 5.12747V5.12747Z" fill="white" />
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="footer__phone">
+                    <a class="phone" href="tel:+74959709966">+7 (495) 970-99-66</a>
+                </div>
+                <div class="footer__mail">80ballov@godege.ru</div>
+
+                <div class="footer__contacts">
+                    <p>© 2020 УЦ «Годограф»</p>
+                    <p>Проект 80 Баллов</p>
+                    <p>ИП: Стерлядкин Андрей Викторович</p>
+                    <p>ИНН: 773137757657</p>
+                    <p>ОГРН: 317774600363751</p>
+                </div>
+
+                <ul class="footer__links">
+                    <li class="footer__links-item">Политика конфиденциальности</li>
+                    <li class="footer__links-item">Договор оферты регулярных платежей</li>
+                    <li class="footer__links-item">Договор оферты</li>
+                </ul>
+
+                <ul class="footer__links">
+                    <li class="footer__links-item">Очные занятия</li>
+                    <li class="footer__links-item">Франшиза курсов ЕГЭ и ОГЭ</li>
+                    <li class="footer__links-item">Вакансии центра</li>
+                    <li class="footer__links-item">Контакты</li>
+                    <li class="footer__links-item">Блог</li>
+                </ul>
+
+                <ul class="footer__links">
+                    <li class="footer__links-item">Математика</li>
+                    <li class="footer__links-item">Обществознание</li>
+                    <li class="footer__links-item">Биология</li>
+                    <li class="footer__links-item">Английский язык</li>
+                    <li class="footer__links-item">Литература</li>
+                    <li class="footer__links-item">Информатика</li>
+                </ul>
+
+                <div class="footer__license">
+                    <img class="footer__license-img" src="images/license.png" alt="license">
+                    <p class="footer__license-descr">Государственная лицензия</p>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/main.js"></script>
+    <!-- <script src="js/script.js"></script> -->
 </body>
 
 </html>
