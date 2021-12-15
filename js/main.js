@@ -12,5 +12,8 @@ $(function () {
 	$('.dropdown__title').click(function (event) {
 		$(this).toggleClass('active').next().slideToggle(300);
 	});
-
+	
+	$('.teacher__icons-item').click(function (event) {
+	$(this).toggleClass('active').next().slideToggle(300);
+	});
 })
